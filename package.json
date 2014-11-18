@@ -1,0 +1,39 @@
+{
+  "name": "Timer",
+  "version": "1.0.0",
+  "description": "High Resolution timer for NodeJS",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PropelJS/timer.git"
+  },
+  "keywords": [
+    "timer",
+    "high",
+    "resolution",
+    "propel",
+    "PropelJS"
+  ],
+  "author": "Joshwa Fugett <jfugett27@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PropelJS/timer/issues"
+  },
+  "homepage": "https://github.com/PropelJS/timer",
+  "devDependencies": {
+    "co-mocha": "^1.1.0",
+    "gen": "git://github.com/PropelJS/gen",
+    "gulp": "^3.8.10",
+    "gulp-module": "git://github.com/PropelJS/gulp-module",
+    "should": "^4.3.0"
+  },
+  "dependencies": {
+    "moment": "^2.8.3"
+  }
+}

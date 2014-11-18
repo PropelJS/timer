@@ -1,0 +1,14 @@
+{
+  "reports": [
+    "gulpfile.js.json",
+    "lib/index.js.json",
+    "test/unit/index.js.json"
+  ],
+  "baseDir": "/var/node/propel/timer/",
+  "cwd": "/var/node/propel/timer",
+  "reporterName": "gulp-escomplex-reporter-json",
+  "reporterVersion": "1.0.0",
+  "analysis": "gulp-escomplex",
+  "analysisVersion": "1.0.1",
+  "created": "2014-11-18T22:52:48.203Z"
+}

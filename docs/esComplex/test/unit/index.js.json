@@ -1,0 +1,835 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 52,
+      "physical": 93
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 6,
+        "total": 144,
+        "identifiers": [
+          "()",
+          "var",
+          "=",
+          "new",
+          "function",
+          "."
+        ]
+      },
+      "operands": {
+        "distinct": 59,
+        "total": 174,
+        "identifiers": [
+          "\"use strict\"",
+          "\"should\"",
+          "require",
+          "\"co-mocha\"",
+          "gen",
+          "\"gen\"",
+          "Timer",
+          "\"../../lib/index\"",
+          "timer",
+          "timer2",
+          "timer3",
+          "\"Timer\"",
+          "<anonymous>",
+          "\"Should be a constructor\"",
+          "\"function\"",
+          "should",
+          "be",
+          "type",
+          "it",
+          "\"Should create a proper object\"",
+          "\"object\"",
+          "\"Should have a method start\"",
+          "start",
+          "\"Should have a method stop\"",
+          "stop",
+          "\"Should have a method mark\"",
+          "mark",
+          "\"Should have a method run\"",
+          "run",
+          "\"Should have a method result\"",
+          "result",
+          "\"Should store the start date\"",
+          "_start",
+          "\"Should add a mark\"",
+          2,
+          "_marks",
+          "length",
+          "equal",
+          "\"SHould store the end date\"",
+          "_end",
+          "\"Should keep each timer separate\"",
+          0,
+          "\"Should run a generator\"",
+          0,
+          "not",
+          "\"Should output the results in ms\"",
+          "results",
+          "\"ms\"",
+          "unit",
+          "\"Should output the result in seconds\"",
+          "\"s\"",
+          "\"Should output the result in ns\"",
+          "\"ns\"",
+          "\"Should be accurate\"",
+          1,
+          0.05,
+          "time",
+          "approximately",
+          "describe"
+        ]
+      },
+      "length": 318,
+      "vocabulary": 65,
+      "difficulty": 8.847457627118644,
+      "volume": 1915.1129645430485,
+      "effort": 16943.880804940192,
+      "bugs": 0.6383709881810161,
+      "time": 941.3267113855662
+    },
+    "params": 0,
+    "line": 1,
+    "cyclomaticDensity": 1.9230769230769231
+  },
+  "functions": [
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 16,
+        "physical": 79
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 32,
+          "identifiers": [
+            "()",
+            "function"
+          ]
+        },
+        "operands": {
+          "distinct": 18,
+          "total": 48,
+          "identifiers": [
+            "\"Should be a constructor\"",
+            "<anonymous>",
+            "it",
+            "\"Should create a proper object\"",
+            "\"Should have a method start\"",
+            "\"Should have a method stop\"",
+            "\"Should have a method mark\"",
+            "\"Should have a method run\"",
+            "\"Should have a method result\"",
+            "\"Should store the start date\"",
+            "\"Should add a mark\"",
+            "\"SHould store the end date\"",
+            "\"Should keep each timer separate\"",
+            "\"Should run a generator\"",
+            "\"Should output the results in ms\"",
+            "\"Should output the result in seconds\"",
+            "\"Should output the result in ns\"",
+            "\"Should be accurate\""
+          ]
+        },
+        "length": 80,
+        "vocabulary": 20,
+        "difficulty": 2.6666666666666665,
+        "volume": 345.754247590989,
+        "effort": 922.011326909304,
+        "bugs": 0.115251415863663,
+        "time": 51.22285149496133
+      },
+      "params": 0,
+      "line": 15,
+      "cyclomaticDensity": 6.25
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 4,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 5,
+          "total": 5,
+          "identifiers": [
+            "\"function\"",
+            "Timer",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 9,
+        "vocabulary": 7,
+        "difficulty": 1,
+        "volume": 25.26619429851844,
+        "effort": 25.26619429851844,
+        "bugs": 0.008422064766172813,
+        "time": 1.403677461028802
+      },
+      "params": 0,
+      "line": 16,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 4,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 5,
+          "total": 5,
+          "identifiers": [
+            "\"object\"",
+            "timer",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 9,
+        "vocabulary": 7,
+        "difficulty": 1,
+        "volume": 25.26619429851844,
+        "effort": 25.26619429851844,
+        "bugs": 0.008422064766172813,
+        "time": 1.403677461028802
+      },
+      "params": 0,
+      "line": 20,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"function\"",
+            "timer",
+            "start",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 24,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"function\"",
+            "timer",
+            "stop",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 28,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"function\"",
+            "timer",
+            "mark",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 32,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"function\"",
+            "timer",
+            "run",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 36,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"function\"",
+            "timer",
+            "result",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 40,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"object\"",
+            "timer",
+            "_start",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 44,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 6,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 7,
+          "identifiers": [
+            2,
+            "timer",
+            "_marks",
+            "length",
+            "should",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 13,
+        "vocabulary": 9,
+        "difficulty": 1,
+        "volume": 41.20902501875006,
+        "effort": 41.20902501875006,
+        "bugs": 0.013736341672916687,
+        "time": 2.289390278819448
+      },
+      "params": 0,
+      "line": 49,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"object\"",
+            "timer",
+            "_end",
+            "should",
+            "be",
+            "type"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 8,
+        "difficulty": 1,
+        "volume": 33,
+        "effort": 33,
+        "bugs": 0.011,
+        "time": 1.8333333333333333
+      },
+      "params": 0,
+      "line": 54,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 6,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 7,
+          "identifiers": [
+            0,
+            "timer2",
+            "_marks",
+            "length",
+            "should",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 13,
+        "vocabulary": 9,
+        "difficulty": 1,
+        "volume": 41.20902501875006,
+        "effort": 41.20902501875006,
+        "bugs": 0.013736341672916687,
+        "time": 2.289390278819448
+      },
+      "params": 0,
+      "line": 59,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 6
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 6,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 7,
+          "identifiers": [
+            0,
+            "timer2",
+            "_end",
+            "should",
+            "not",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 13,
+        "vocabulary": 9,
+        "difficulty": 1,
+        "volume": 41.20902501875006,
+        "effort": 41.20902501875006,
+        "bugs": 0.013736341672916687,
+        "time": 2.289390278819448
+      },
+      "params": 0,
+      "line": 63,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 8,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 8,
+          "identifiers": [
+            "results",
+            "\"ms\"",
+            0,
+            "unit",
+            "should",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 16,
+        "vocabulary": 11,
+        "difficulty": 2.2857142857142856,
+        "volume": 55.350905898196764,
+        "effort": 126.51635633873545,
+        "bugs": 0.018450301966065587,
+        "time": 7.028686463263081
+      },
+      "params": 0,
+      "line": 70,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 8,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 8,
+          "identifiers": [
+            "results",
+            "\"s\"",
+            0,
+            "unit",
+            "should",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 16,
+        "vocabulary": 11,
+        "difficulty": 2.2857142857142856,
+        "volume": 55.350905898196764,
+        "effort": 126.51635633873545,
+        "bugs": 0.018450301966065587,
+        "time": 7.028686463263081
+      },
+      "params": 0,
+      "line": 75,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 2,
+        "physical": 4
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 8,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 7,
+          "total": 8,
+          "identifiers": [
+            "results",
+            "\"ns\"",
+            0,
+            "unit",
+            "should",
+            "be",
+            "equal"
+          ]
+        },
+        "length": 16,
+        "vocabulary": 11,
+        "difficulty": 2.2857142857142856,
+        "volume": 55.350905898196764,
+        "effort": 126.51635633873545,
+        "bugs": 0.018450301966065587,
+        "time": 7.028686463263081
+      },
+      "params": 0,
+      "line": 80,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "<anonymous>",
+      "sloc": {
+        "logical": 5,
+        "physical": 8
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 4,
+          "total": 8,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 9,
+          "identifiers": [
+            "results",
+            1,
+            0.05,
+            0,
+            "time",
+            "should",
+            "be",
+            "approximately"
+          ]
+        },
+        "length": 17,
+        "vocabulary": 12,
+        "difficulty": 2.25,
+        "volume": 60.94436251225966,
+        "effort": 137.12481565258423,
+        "bugs": 0.020314787504086555,
+        "time": 7.618045314032457
+      },
+      "params": 0,
+      "line": 85,
+      "cyclomaticDensity": 20
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 5,
+      "path": "should",
+      "type": "CommonJS"
+    },
+    {
+      "line": 6,
+      "path": "co-mocha",
+      "type": "CommonJS"
+    },
+    {
+      "line": 8,
+      "path": "gen",
+      "type": "CommonJS"
+    },
+    {
+      "line": 10,
+      "path": "../../lib/index",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 81.83575672597874,
+  "params": 0,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.1",
+    "fileName": "test/unit/index.js"
+  }
+}
