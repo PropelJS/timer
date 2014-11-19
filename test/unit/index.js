@@ -41,19 +41,10 @@ describe('Timer', function() {
     timer.result.should.be.type('function');
   });
 
-  it('Should store the start date', function * () {
-    yield timer.start();
-    timer._start.should.be.type('object');
-  });
-
   it('Should add a mark', function * () {
+    yield timer.start();
     yield timer.mark('test');
     timer._marks.length.should.be.equal(2);
-  });
-
-  it('SHould store the end date', function * () {
-    yield timer.stop();
-    timer._end.should.be.type('object');
   });
 
   it('Should keep each timer separate', function * () {
@@ -64,7 +55,7 @@ describe('Timer', function() {
     yield timer2.run(function * () {
       return true;
     });
-    timer2._end.should.not.be.equal(false);
+    timer2._marks.length.should.be.equal(2);
   });
 
   it('Should output the results in ms', function * () {

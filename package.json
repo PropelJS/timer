@@ -32,8 +32,5 @@
     "gulp": "^3.8.10",
     "gulp-module": "git://github.com/PropelJS/gulp-module",
     "should": "^4.3.0"
-  },
-  "dependencies": {
-    "moment": "^2.8.3"
   }
 }
