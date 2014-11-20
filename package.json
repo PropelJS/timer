@@ -1,6 +1,6 @@
 {
   "name": "Timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High Resolution timer for NodeJS",
   "main": "lib/index.js",
   "directories": {
